@@ -1,0 +1,21 @@
+Library Management Project:
+Library management system: in this project we can easily manage the book, track them, if we want. 
+The simple user interface can help us to track the status of all available books in the library, search them based on their names, etc.
+first:In this project I have created and populated data in 7 tables as following 
+tbl_book_copies
+tbl_library_branch
+tbl_book
+tbl_borrower
+tbl_book_loans
+tbl_publisher
+tbl_book_authors
+second: I stored procedure query questions as followed:
+1- How many copies of the book titled "The Lost Tribe" are owned by the library branch whose name is "Sharpstown"?
+2- How many copies of the book titled "The Lost Tribe" are owned by each library branch?
+3- Retrieve the names of all borrowers who do not have any books checked out.
+4- For each book that is loaned out from the "Sharpstown" branch and whose DueDate is today,
+ retrieve the book title, the borrower's name, and the borrower's address. 
+5- For each library branch, retrieve the branch name and the total number of books loaned out from that branch.  
+6- Retrieve the names, addresses, and number of books checked out for all borrowers who have more than five books checked out. 
+7- For each book authored by "Stephen King", retrieve the title and the number of copies owned by the library branch whose name is "Central".
+
